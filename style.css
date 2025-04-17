@@ -1,0 +1,67 @@
+.list{
+    list-style-type: none;
+}
+.d-flex{
+    display:flex;
+}
+.logo{
+    width: 100px;
+}
+.container{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-WEizn2Eu5JtZ4BPc5SlIQliTi4CKqJ9pgg&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+    
+}
+.navbar{
+    text-decoration-color: rgba(221, 181, 205, 0.781);
+    width: 300px;
+}
+.h1{
+    color: rgb(253, 245, 250);
+}
+.list{
+    gap: 20px;
+}
+.list a{
+    color: rgb(219, 233, 245);
+    gap: 20px;
+}
+
+
+.align-items-ceter{
+    align-items: center;
+}
+.label{
+    color: rgb(255, 255, 255);
+    font-weight: 20px;
+    font-size: 20px;
+}
+.main{
+    position: relative;
+   
+}
+
+.card{
+    background-color: aliceblue;
+    border: 5px solid red;
+    width: 250px;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    position: relative;
+}
+.card img{
+    width: 100%;
+}
+.button{
+    top: 3px;
+    right: 3px;
+    position: absolute;
+    background: rgb(236, 166, 166);
+    color: black;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 5px;
+}

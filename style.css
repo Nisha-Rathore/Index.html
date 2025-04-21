@@ -89,8 +89,9 @@
     font-size: 80px;
     font-weight: bolder;
     font-style: italic;
-    color: rgba(65, 12, 109, 0.883);
+    color: rgba(89, 62, 139, 0.883);
     text-align: center;
+    text-shadow: 8px 8px 5px pink;
     background-repeat: no-repeat;
    background-size: cover;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG-BnyuvvLpvEVRaYXd2jxFv1ii8dehsOnEA&s);
@@ -105,6 +106,7 @@
     font-style: italic;
     color: rgba(65, 12, 109, 0.883);
     text-align: center;
+    text-shadow: 8px 8px 5px pink;
     background-repeat: no-repeat;
    background-size: cover;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG-BnyuvvLpvEVRaYXd2jxFv1ii8dehsOnEA&s);
@@ -118,10 +120,29 @@
     font-style: italic;
     color: rgba(65, 12, 109, 0.883);
     text-align: center;
+    text-shadow: 8px 8px 5px pink;
     background-repeat: no-repeat;
    background-size: cover;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG-BnyuvvLpvEVRaYXd2jxFv1ii8dehsOnEA&s);
     padding: 10px;
     height: 110px;
     padding-top: 50px;
+}
+.add-cart{
+    color: rgb(250, 226, 196);
+    background-color: rgb(211, 151, 77);
+    border:1px solid rgb(63, 38, 38)
+    padding: 2px;
+    bottom:3px;
+    right:10px;
+    position:absolute;
+
+}
+.vr{
+    border-right: 1px solid rgb(252, 245, 245);
+    padding-left: 10px;
+}
+.footer{
+   color: aliceblue;
+    background-color: rgb(88, 88, 117);
 }

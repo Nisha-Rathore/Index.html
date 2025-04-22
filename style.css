@@ -1,3 +1,8 @@
+*{
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
 .list{
     list-style-type: none;
 }
@@ -20,9 +25,13 @@
     width: 100%;
     z-index: 1;
 }
+.menu{
+    padding-right: 50px;
+}
 .navbar{
     text-decoration-color: rgba(221, 181, 205, 0.781);
     width: 300px;
+    margin-right: 200px;
 }
 .h1{
     color: rgb(253, 245, 250);
@@ -36,7 +45,7 @@
 }
 
 
-.align-items-ceter{
+.align-items-center{
     align-items: center;
 }
 .label{
@@ -45,7 +54,7 @@
     font-size: 20px;
 }
 .span{
-    padding: 250px 150px;
+    padding: 50px 70px;
 }
 .main{
     justify-content: space-between;
@@ -140,9 +149,12 @@
 }
 .vr{
     border-right: 1px solid rgb(252, 245, 245);
-    padding-left: 10px;
+    padding-right: 80px;
 }
 .footer{
    color: aliceblue;
     background-color: rgb(88, 88, 117);
+}
+.cr{
+    padding-left: 80px;
 }
